@@ -1,0 +1,106 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+#wrapper{
+    margin: 0 auto;
+    width: 90%;
+}
+
+/**** Header Styles ****/
+
+.header {
+    padding-top:25px;
+    position: relative;
+    box-shadow: 0px 1px 10px 0px #006699;
+}
+
+.header img{
+    float: left;
+    max-width: 20%;
+    max-height: 80px;
+    
+}
+
+.header h1{
+    font-family: 'arial';
+    font-size: 2em;
+    position: absolute;
+    display: inline;
+    float: left;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}    
+
+/**** Navigation ****/
+
+#nav_primary{
+    height:50px;
+    line-height:50px;
+    background:#006699;
+    clear:both;
+}
+
+#nav_primary ul{    
+    margin:0 auto; 
+}
+
+#nav_primary li{
+    float:left;
+    list-style-type:none;
+    width:25%; 
+    text-align:center;
+}
+
+#nav_primary a{
+    text-decoration:none;
+    color:#fff;
+    display:block; 
+}
+
+#nav_primary a:hover{
+    background:#b3b300;
+    color:#000;
+}
+
+/**** Sections ****/
+
+.lesson{
+    margin-top: 10px;
+    background: #fff;
+    box-shadow: 0px 1px 10px 0px #006699;
+    padding: 10px;
+    
+}
+
+.lesson ul li{
+    list-style-position: inside;
+    padding-left: 2%;
+}
+
+/**** footer styles ****/
+
+.footer {
+    margin-top: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: relative;
+    box-shadow: 0px 0px 10px 0px #006699;
+    background:#006699;
+    color: #fff;
+    text-align: center;
+}
+
+.footer h1{
+    position: absolute;
+    display: inline;
+    float: left;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}    
