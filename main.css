@@ -82,6 +82,13 @@
     padding-left: 2%;
 }
 
+.lesson img {
+    border: 2px solid #006699;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
 /**** footer styles ****/
 
 .footer {
